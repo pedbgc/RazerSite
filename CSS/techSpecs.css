@@ -78,7 +78,8 @@ footer {
 }
 
 .nav-item {
-    margin: 0 1rem;
+    justify-content: space-between;
+    font-size:calc(12px + 1vw);
 }
 
 .nav-item.logo {
@@ -89,7 +90,7 @@ a {
     color: grey;
     text-decoration: none;
     transition: color 0.3s;
-    font-size: 1rem;
+    margin: 0 1rem;
 }
 
 a:hover {
